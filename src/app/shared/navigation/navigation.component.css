@@ -1,0 +1,17 @@
+.offcanvas {
+    width: 300px;
+}
+
+.nav-link {
+    padding: 1rem;
+    color: #333;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #f8f9fa;
+}
+
+.bi {
+    margin-right: 0.5rem;
+}

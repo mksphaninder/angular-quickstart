@@ -1,0 +1,35 @@
+.main-content {
+    min-height: 100vh;
+    /* Changed to 100vh */
+    padding-top: calc(var(--header-height) + 2rem);
+    /* Moved padding-top separate */
+    padding-bottom: var(--footer-height);
+    /* Adjusted padding-bottom */
+    margin-bottom: calc(var(--footer-height) * -1);
+    /* Added negative margin */
+    background-image: url('../../assets/background2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    /* Added position relative */
+}
+
+.bio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));
+    /* Adjusted height */
+    padding: 2rem 0;
+    /* Added padding */
+}
+
+.bio-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 100%;
+    backdrop-filter: blur(5px);
+}
