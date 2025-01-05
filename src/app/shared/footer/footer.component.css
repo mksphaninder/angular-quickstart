@@ -1,12 +1,13 @@
 footer {
     height: var(--footer-height);
-    background-color: white;
+    background: transparent;
+    color: #333; /* Changed font color for better contrast */
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
-    position: fixed; /* Changed to fixed */
+    box-shadow: none;
+    position: fixed;
     bottom: 0;
     width: 100%;
-    z-index: 1000; /* Added z-index */
-  }
+    z-index: 1000;
+}
